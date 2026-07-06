@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --main-font: "Helvetica", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

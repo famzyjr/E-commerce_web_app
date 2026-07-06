@@ -1,10 +1,23 @@
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+  --primary-color: #4ADE80;
+  --secondary-color: #166534;
   --main-font: "Helvetica", sans-serif;
+  --headerText: #111827;
+  --text:#16657C;
+  --subtext: #C4FDFD;
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
+header{
+background-color: #fff;
+}
+
+.Home{
+  background-color: var(--secondary-color);
+  color: var(--text);
 }

@@ -1,23 +1,33 @@
 :root {
-  --primary-color: #4ADE80;
+  --primary-color: #4ade80;
   --secondary-color: #166534;
   --main-font: "Helvetica", sans-serif;
   --headerText: #111827;
-  --text:#16657C;
-  --subtext: #C4FDFD;
+  --text: #16657c;
+  --subtext: #c4fdfd;
+  --active: #fff;
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-header{
-background-color: #fff;
+header {
+  background-color: #fff;
 }
 
-.Home{
-  background-color: var(--secondary-color);
+.Home {
+  /* background-color: var(--secondary-color); */
   color: var(--text);
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.Home.active {
+  background-color: var(--secondary-color);
+  color: var(--active);
 }

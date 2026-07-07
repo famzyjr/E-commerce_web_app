@@ -3,23 +3,25 @@
   --secondary-color: #166534;
   --main-font: "Helvetica", sans-serif;
   --headerText: #111827;
-  --text: #16657c;
+  --text: #111827;
   --subtext: #c4fdfd;
   --active: #fff;
+  --hover: #166534;
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: var(--active);
+  font-family: "Lato", sans-serif;
+/* font-weight: 300; */
 }
 
 header {
-  background-color: #fff;
+  background-color: var(--active);
 }
 
 .Home {
-  /* background-color: var(--secondary-color); */
   color: var(--text);
 }
 
@@ -31,3 +33,4 @@ ul li {
   background-color: var(--secondary-color);
   color: var(--active);
 }
+
